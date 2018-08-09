@@ -20,7 +20,7 @@ class ShoppingList extends Component{
                     color='dark' 
                     style={{marginBottom: '2rem'}}
                     onClick={()=> {
-                        const name = prompt('enter name')
+                        const name = prompt('Enter name')
                         if(name){
                             this.setState(
                                 state => ({
